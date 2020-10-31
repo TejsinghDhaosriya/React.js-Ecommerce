@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './homepage.component'
+import HomePage from './homepage.component';
 
 function App() {
   return (
     <div>
-      Hello World
+      <HomePage/>
     </div>
   );
 }
